@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import com.android.mlify.R
+import com.android.mlify.barcode.BarcodeActivity
 import com.android.mlify.databinding.FragmentHomeBinding
 import com.android.mlify.translate.TranslateActivity
 import com.google.mlkit.samples.nl.translate.kotlin.TranslateFragment
@@ -21,9 +22,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         setupListener()
     }
 
-    private fun inflateViews() {
-//        TODO("Not yet implemented")
-    }
 
     private fun setupListener() {
         binding.apply {
@@ -31,9 +29,13 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
                 val intent = Intent(activity, TranslateActivity::class.java)
                 startActivity(intent)
             }
+
+            btnBarcodeScanner.setOnClickListener {
+                val intent = Intent(activity, BarcodeActivity::class.java)
+                startActivity(intent)
+            }
         }
 
     }
-
 
 }
