@@ -29,31 +29,37 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/download_button"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:onClick="downloadClick"
+                    android:padding="16dp"
                     android:text="Download" />
 
                 <Button
                     android:id="@+id/recognize_button"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:onClick="recognizeClick"
+                    android:padding="16dp"
                     android:text="Recognize" />
 
                 <Button
                     android:id="@+id/clear_button"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
                     android:layout_weight="1"
                     android:onClick="clearClick"
+                    android:padding="16dp"
                     android:text="Clear" />
             </LinearLayout>
         </LinearLayout>
@@ -65,7 +71,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="60dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <Spinner
@@ -78,8 +84,10 @@
                 android:id="@+id/delete_button"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:onClick="deleteClick"
+                android:padding="16dp"
                 android:text="Delete model" />
         </LinearLayout>
     </FrameLayout>

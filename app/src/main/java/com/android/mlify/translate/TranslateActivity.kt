@@ -12,6 +12,7 @@ class TranslateActivity : AppCompatActivity() {
         setContentView(R.layout.activity_translate)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "Offline Language Translator"
 
 
         if (savedInstanceState == null) {

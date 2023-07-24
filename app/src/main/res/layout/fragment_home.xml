@@ -25,7 +25,7 @@
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_barcode_scanner"
             style="@style/GridLayoutItem"
-            android:text="Barcode" />
+            android:text="QR/Barcode" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_autodraw"
@@ -33,9 +33,9 @@
             android:text="Autodraw" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_image_labelling"
+            android:id="@+id/btn_entity_extraction"
             style="@style/GridLayoutItem"
-            android:text="Image" />
+            android:text="Extraction" />
 
     </GridLayout>
 

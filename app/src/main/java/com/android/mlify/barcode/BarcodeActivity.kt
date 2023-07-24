@@ -2,6 +2,7 @@ package com.android.mlify.barcode
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 import android.widget.CheckBox
 import android.widget.TextView
@@ -21,7 +22,16 @@ class BarcodeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityBarcodeBinding.inflate(layoutInflater)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.title = "QR / Barcode Scanner"
+
         setContentView(binding.root)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        onBackPressed()
+        return super.onOptionsItemSelected(item)
     }
 
     fun onAllowManualInputCheckboxClicked(view: View) {
