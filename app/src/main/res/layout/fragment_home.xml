@@ -28,9 +28,9 @@
             android:text="Barcode" />
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/btn_object_detection"
+            android:id="@+id/btn_autodraw"
             style="@style/GridLayoutItem"
-            android:text="Object" />
+            android:text="Autodraw" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_image_labelling"

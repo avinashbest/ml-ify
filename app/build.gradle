@@ -58,4 +58,9 @@ dependencies {
     // code scanner
     implementation 'com.google.android.gms:play-services-code-scanner:16.0.0-beta3'
 
+    // autodraw
+    implementation 'com.google.mlkit:digital-ink-recognition:18.1.0'
+    implementation "com.google.auto.value:auto-value-annotations:1.6.5"
+    annotationProcessor "com.google.auto.value:auto-value:1.6.3"
+
 }

@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.View
 import com.android.mlify.R
+import com.android.mlify.autodraw.DigitalInkMainActivity
 import com.android.mlify.barcode.BarcodeActivity
 import com.android.mlify.databinding.FragmentHomeBinding
 import com.android.mlify.translate.TranslateActivity
@@ -32,6 +33,11 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
             btnBarcodeScanner.setOnClickListener {
                 val intent = Intent(activity, BarcodeActivity::class.java)
+                startActivity(intent)
+            }
+
+            btnAutodraw.setOnClickListener {
+                val intent = Intent(activity, DigitalInkMainActivity::class.java)
                 startActivity(intent)
             }
         }
