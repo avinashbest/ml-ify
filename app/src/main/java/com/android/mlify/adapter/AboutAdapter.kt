@@ -37,8 +37,12 @@ class AboutAdapter : RecyclerView.Adapter<AboutAdapter.MyViewHolder>() {
         return devList.size
     }
 
-    fun updateDevList(devList: ArrayList<String>, devemailList: ArrayList<String>
-                      ,devRoll: ArrayList<String>,devReg: ArrayList<String>) {
+    fun updateDevList(
+        devList: ArrayList<String>,
+        devemailList: ArrayList<String>,
+        devRoll: ArrayList<String>,
+        devReg: ArrayList<String>
+    ) {
 
         this.devList.clear()
         this.devemailList.clear()

@@ -33,7 +33,7 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
         devList.add(1,"Aditya Kumar Sinha")
         devList.add(2,"Aman Raj")
         devList.add(3,"Srijan Sourav")
-        devList.add(4,"Abhisekh Kumar Singh")
+        devList.add(4,"Abhishek Kumar Singh")
         devList.add(5,"Shivam Kumar")
 
         devRoll.add(0,"Roll No : 191041")
@@ -43,18 +43,18 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
         devRoll.add(4,"Roll No : 191012")
         devRoll.add(5,"Roll No : 191018")
 
-        devReg.add(0,"Reg No : 19105103005")
+        devReg.add(0,"Reg No : 19105103001")
         devReg.add(1,"Reg No : 19105103049")
         devReg.add(2,"Reg No : 19105103038")
-        devReg.add(3,"Reg No : 19105103005")
-        devReg.add(4,"Reg No : 19105103005")
-        devReg.add(5,"Reg No : 19105103005")
+        devReg.add(3,"Reg No : 19105103044")
+        devReg.add(4,"Reg No : 19105103037")
+        devReg.add(5,"Reg No : 19105103029")
 
         devEmailList.add(0,"avinashbest3@gmail.com")
         devEmailList.add(1,"adityakumarsinha0000@gmail.com")
         devEmailList.add(2,"jemescollin1@gmail.com")
         devEmailList.add(3,"souravsrijan@gmail.com")
-        devEmailList.add(4,"Abhisekh Kumar Singh")
+        devEmailList.add(4,"rajputabhisheksingh53@gmail.com")
         devEmailList.add(5,"shivam09082000@gmail.com")
 
 
